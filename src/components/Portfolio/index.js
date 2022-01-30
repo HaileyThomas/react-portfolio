@@ -13,7 +13,7 @@ function Portfolio() {
         <div className="column is-4">
           <div className="card">
             <div className="card-header-title">
-              <h1 className="is-size-3">
+              <h1 className="is-size-4">
                 <b>Book Club 📚</b>
               </h1>
             </div>
@@ -23,12 +23,6 @@ function Portfolio() {
                 className="project-img"
                 alt="Book Club Screenshot"
               />
-            </div>
-            <div className="card-content">
-              <p className="is-size-5">
-                An interactive full stack web application built using Express,
-                Handlebars and Sequelize.
-              </p>
             </div>
             <footer className="card-footer">
               <a
@@ -54,7 +48,7 @@ function Portfolio() {
         <div className="column is-4">
           <div className="card">
             <div className="card-header-title">
-              <h1 className="is-size-3">
+              <h1 className="is-size-4">
                 <b>Tech Blog 💻</b>
               </h1>
             </div>
@@ -64,12 +58,6 @@ function Portfolio() {
                 className="project-img"
                 alt="Tech Blog Screenshot"
               />
-            </div>
-            <div className="card-content">
-              <p className="is-size-5">
-                Full stack blog made with MySQL2, Express, Sequelize,
-                Handlebars, dotenv, and bcrypt.
-              </p>
             </div>
             <footer className="card-footer">
               <a
@@ -95,7 +83,7 @@ function Portfolio() {
         <div className="column is-4">
           <div className="card">
             <div className="card-header-title">
-              <h1 className="is-size-3">
+              <h1 className="is-size-4">
                 <b>Monster Manager 👾</b>
               </h1>
             </div>
@@ -105,11 +93,6 @@ function Portfolio() {
                 className="project-img"
                 alt="Monster Management Screenshot"
               />
-            </div>
-            <div className="card-content">
-              <p className="is-size-5">
-                Node.js content management system application made with MySql.
-              </p>
             </div>
             <footer className="card-footer">
               <a
@@ -132,11 +115,12 @@ function Portfolio() {
           </div>
         </div>
       </div>
+
       <div className="columns">
         <div className="column is-4">
           <div className="card">
             <div className="card-header-title">
-              <h1 className="is-size-3">
+              <h1 className="is-size-4">
                 <b>Weather App 🌤️</b>
               </h1>
             </div>
@@ -146,12 +130,6 @@ function Portfolio() {
                 className="project-img"
                 alt="Weather Dashboard Screenshot"
               />
-            </div>
-            <div className="card-content">
-              <p className="is-size-5">
-                Weather application using Open Weather API and built with
-                Javascript to change DOM elements.
-              </p>
             </div>
             <footer className="card-footer">
               <a
@@ -177,7 +155,7 @@ function Portfolio() {
         <div className="column is-4">
           <div className="card">
             <div className="card-header-title">
-              <h1 className="is-size-3">
+              <h1 className="is-size-4">
                 <b>Coding Quiz ✔️</b>
               </h1>
             </div>
@@ -187,11 +165,6 @@ function Portfolio() {
                 className="project-img"
                 alt="Coding Quiz Screenshot"
               />
-            </div>
-            <div className="card-content">
-              <p className="is-size-5">
-                Times coding quiz designed with CSS and powered by Javascript.
-              </p>
             </div>
             <footer className="card-footer">
               <a
@@ -217,7 +190,7 @@ function Portfolio() {
         <div className="column is-4">
           <div className="card">
             <div className="card-header-title">
-              <h1 className="is-size-3">
+              <h1 className="is-size-4">
                 <b>Plumbob Picker 💚</b>
               </h1>
             </div>
@@ -227,12 +200,6 @@ function Portfolio() {
                 className="project-img"
                 alt="Plumbob Picker Screenshot"
               />
-            </div>
-            <div className="card-content">
-              <p className="is-size-5">
-                Sims 4 Game Randomizer styled with HTML, CSS and powered by
-                Javascript.
-              </p>
             </div>
             <footer className="card-footer">
               <a
