@@ -137,7 +137,7 @@ function Portfolio() {
           <div className="card">
             <div className="card-header-title">
               <h1 className="is-size-3">
-                <b>Weather Dashboard 🌤️</b>
+                <b>Weather App 🌤️</b>
               </h1>
             </div>
             <div className="card-image">
@@ -164,6 +164,87 @@ function Portfolio() {
               </a>
               <a
                 href="https://haileythomas.github.io/weather-dashboard/"
+                className="card-footer-item"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Deploy
+              </a>
+            </footer>
+          </div>
+        </div>
+
+        <div className="column is-4">
+          <div className="card">
+            <div className="card-header-title">
+              <h1 className="is-size-3">
+                <b>Coding Quiz ✔️</b>
+              </h1>
+            </div>
+            <div className="card-image">
+              <img
+                src={codingquiz}
+                className="project-img"
+                alt="Coding Quiz Screenshot"
+              />
+            </div>
+            <div className="card-content">
+              <p className="is-size-5">
+                Times coding quiz designed with CSS and powered by Javascript.
+              </p>
+            </div>
+            <footer className="card-footer">
+              <a
+                href="https://github.com/HaileyThomas/coding-quiz"
+                className="card-footer-item"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://haileythomas.github.io/coding-quiz/"
+                className="card-footer-item"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Deploy
+              </a>
+            </footer>
+          </div>
+        </div>
+
+        <div className="column is-4">
+          <div className="card">
+            <div className="card-header-title">
+              <h1 className="is-size-3">
+                <b>Plumbob Picker 💚</b>
+              </h1>
+            </div>
+            <div className="card-image">
+              <img
+                src={plumbob}
+                className="project-img"
+                alt="Plumbob Picker Screenshot"
+              />
+            </div>
+            <div className="card-content">
+              <p className="is-size-5">
+                Sims 4 Game Randomizer styled with HTML, CSS and powered by
+                Javascript.
+              </p>
+            </div>
+            <footer className="card-footer">
+              <a
+                href="https://github.com/HaileyThomas/plumbobpicker"
+                className="card-footer-item"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://haileythomas.github.io/plumbobpicker/"
                 className="card-footer-item"
                 target="_blank"
                 rel="noreferrer"
