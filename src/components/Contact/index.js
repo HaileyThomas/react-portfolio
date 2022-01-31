@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
+import Icon from "@mdi/react";
+import { mdiGithub } from "@mdi/js";
+import { mdiEmail } from "@mdi/js";
 
 function Contact() {
   const [formState, setFormState] = useState({
@@ -36,11 +39,24 @@ function Contact() {
   };
 
   return (
-    <section className="columns">
-      <div className="column">
+    <section className="column is-four-fifths is-offset-1">
+      <div>
         <h1 className="has-text-white is-size-3">
           <b>Contact Me 🦋</b>
         </h1>
+        <p className="has-text-white has-text-centered">
+          <a href="mailto:haileyraebeauty@gmail.com">
+            <span className="icon is-info is-large is-size-1">
+              <Icon path={mdiEmail} />
+            </span>
+          </a>
+          <a href="https://github.com/HaileyThomas" target="blank">
+            <span className="icon is-info is-large is-size-1">
+              <Icon path={mdiGithub} />
+            </span>
+          </a>
+        </p>
+        <br />
         <p className="has-text-white is-size-4 has-text-centered">
           Please feel free to contact me by Email, GitHub or the form below!
         </p>
