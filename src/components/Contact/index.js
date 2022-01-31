@@ -81,11 +81,11 @@ function Contact() {
               rows="5"
             />
           </div>
-          {{errorMessage && (
-              <div>
-                <p className="has-text-red error-text">{errorMessage}</p>
-              </div>
-          )}}
+          {errorMessage && (
+            <div>
+              <p className="has-text-red error-text">{errorMessage}</p>
+            </div>
+          )}
           <button className="button is-link is-fullwidth" type="submit">
             Submit
           </button>

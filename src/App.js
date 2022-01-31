@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import headerImage from "./assets/cover/header.png";
 // import About from "./components/About";
 import Nav from "./components/Nav";
@@ -6,6 +6,7 @@ import Nav from "./components/Nav";
 import Contact from "./components/Contact";
 
 function App() {
+
   return (
     <div>
       <Nav></Nav>
