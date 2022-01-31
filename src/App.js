@@ -1,5 +1,7 @@
 import React from "react";
 import headerImage from "./assets/cover/header.png";
+import footerImage from "./assets/footer/footer.png";
+
 // import About from "./components/About";
 import Nav from "./components/Nav";
 // import Portfolio from "./components/Portfolio";
@@ -17,6 +19,7 @@ function App() {
             <div className="columns green mr-1 ml-1 p-3">
               <Resume></Resume>
             </div>
+            <img src={footerImage} alt="footer" />
           </div>
         </div>
       </main>
