@@ -46,12 +46,12 @@ function Contact() {
         </h1>
         <p className="has-text-white has-text-centered">
           <a href="mailto:haileyraebeauty@gmail.com">
-            <span className="icon is-info is-large is-size-1">
+            <span className="icon has-text-success is-large is-size-1">
               <Icon path={mdiEmail} />
             </span>
           </a>
           <a href="https://github.com/HaileyThomas" target="blank">
-            <span className="icon is-info is-large is-size-1">
+            <span className="icon has-text-success is-large is-size-1">
               <Icon path={mdiGithub} />
             </span>
           </a>
@@ -66,7 +66,7 @@ function Contact() {
               Name:
             </label>
             <input
-              className="input is-info"
+              className="input is-success"
               type="text"
               defaultValue={name}
               onBlur={handleChange}
@@ -78,7 +78,7 @@ function Contact() {
               Email:
             </label>
             <input
-              className="input is-info"
+              className="input is-success"
               type="email"
               defaultValue={email}
               onBlur={handleChange}
@@ -90,7 +90,7 @@ function Contact() {
               Message:
             </label>
             <textarea
-              className="textarea is-info"
+              className="textarea is-success"
               name="message"
               defaultValue={message}
               onBlur={handleChange}
@@ -102,7 +102,10 @@ function Contact() {
               <p className="has-text-red error-text">{errorMessage}</p>
             </div>
           )}
-          <button className="button is-link is-fullwidth" type="submit">
+          <button
+            className="button is-link is-success is-fullwidth"
+            type="submit"
+          >
             Submit
           </button>
         </form>
