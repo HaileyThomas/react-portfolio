@@ -27,14 +27,18 @@ function Nav(props) {
           Portfolio
         </a>
         <a
+          data-testid="contact"
           className="navbar-item button is-info is-inverted is-rounded m-3"
           href="#Contact"
+          onClick={() => setPortfolioSelected(false)}
         >
           Contact
         </a>
         <a
+          data-testid="resume"
           className="navbar-item button is-info is-inverted is-rounded m-3"
           href="#Resume"
+          onClick={() => setPortfolioSelected(false)}
         >
           Resume
         </a>

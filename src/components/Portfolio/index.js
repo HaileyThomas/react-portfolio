@@ -10,6 +10,13 @@ function Portfolio() {
   return (
     <section>
       <div className="columns">
+        <div class="column">
+          <h1 className="has-text-white is-size-3 p-3">
+            <b>Portfolio 🦋</b>
+          </h1>
+        </div>
+      </div>
+      <div className="columns">
         <div className="column is-4">
           <div className="card">
             <div className="card-header-title">
@@ -220,6 +227,17 @@ function Portfolio() {
               </a>
             </footer>
           </div>
+        </div>
+      </div>
+      <div className="columns">
+        <div className="column">
+          <p className="has-text-white is-size-4 has-text-centered">
+            Visit my{" "}
+            <a href="https://github.com/HaileyThomas" target="blank">
+              GitHub
+            </a>{" "}
+            to view more of my projects!
+          </p>
         </div>
       </div>
     </section>

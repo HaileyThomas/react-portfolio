@@ -5,7 +5,7 @@ import footerImage from "./assets/footer/footer.png";
 import About from "./components/About";
 import Nav from "./components/Nav";
 import Portfolio from "./components/Portfolio";
-// import Contact from "./components/Contact";
+import Contact from "./components/Contact";
 // import Resume from "./components/Resume";
 import Icon from "@mdi/react";
 import { mdiGithub } from "@mdi/js";
@@ -25,10 +25,11 @@ function App() {
             <img src={headerImage} className="p-1" alt="header" />
             <div className="columns green mr-1 ml-1 p-3">
               {!portfolioSelected ? (
-              <>
-                <About></About>
-              </>
-              ) : (<Portfolio></Portfolio>
+                <>
+                  <About></About>
+                </>
+              ) : (
+                <Portfolio></Portfolio>
               )}
             </div>
             <div
@@ -53,7 +54,7 @@ function App() {
                     </span>
                   </a>
                 </p>
-                <p className="is-size-3 has-text-white">
+                <p className="is-size-3 has-text-white has-text-centered">
                   &copy; Hailey Thomas, 2022. Thank you so much for visiting ❤️
                 </p>
               </div>
