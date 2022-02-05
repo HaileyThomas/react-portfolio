@@ -5,9 +5,9 @@ import { mdiFileDownloadOutline } from "@mdi/js";
 
 function Resume() {
   return (
-    <section className="column is-four-fifths is-offset-1">
-      <div>
-        <h1 className="has-text-white is-size-3">Resume 🦋</h1>
+    <section>
+      <div className="column is-four-fifths is-offset-1">
+        <h1 className="has-text-white is-size-3">Resume</h1>
         <p className="has-text-white has-text-centered">
           <a href="mailto:haileyraebeauty@gmail.com">
             <span className="icon has-text-success is-large is-size-1">
@@ -19,9 +19,7 @@ function Resume() {
           Click the icon above to download my Resume.
         </p>
         <br />
-        <h1 className="has-text-white is-size-3">
-          Skills and Proficiencies 🦋
-        </h1>
+        <h1 className="has-text-white is-size-3">Skills and Proficiencies</h1>
         <div className="box">
           <p className="is-size-4">
             HTML 5 • CSS • Javascript • Git • Bootstrap • Bulma • jQuery • Web

@@ -10,7 +10,7 @@ function About() {
       </div>
       <div className="column">
         <h1 id="about" className="has-text-white is-size-3">
-          <b>About Me 🦋</b>
+          <b>About Me</b>
         </h1>
         <p className="has-text-white is-size-5 has-text-justified p-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

@@ -10,9 +10,9 @@ function Portfolio() {
   return (
     <section>
       <div className="columns">
-        <div class="column">
+        <div className="column">
           <h1 className="has-text-white is-size-3 p-3">
-            <b>Portfolio 🦋</b>
+            <b>Portfolio</b>
           </h1>
         </div>
       </div>
@@ -21,7 +21,7 @@ function Portfolio() {
           <div className="card">
             <div className="card-header-title">
               <h1 className="is-size-4">
-                <b>Book Club 📚</b>
+                <b>Book Club</b>
               </h1>
             </div>
             <div className="card-image">
@@ -36,7 +36,7 @@ function Portfolio() {
                 href="https://github.com/HaileyThomas/book-club"
                 className="card-footer-item"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 GitHub
               </a>
@@ -44,7 +44,7 @@ function Portfolio() {
                 href="https://book-club123.herokuapp.com/"
                 className="card-footer-item"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Deploy
               </a>
@@ -56,7 +56,7 @@ function Portfolio() {
           <div className="card">
             <div className="card-header-title">
               <h1 className="is-size-4">
-                <b>Tech Blog 💻</b>
+                <b>Tech Blog</b>
               </h1>
             </div>
             <div className="card-image">
@@ -71,7 +71,7 @@ function Portfolio() {
                 href="https://github.com/HaileyThomas/tech-blog"
                 className="card-footer-item"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 GitHub
               </a>
@@ -79,7 +79,7 @@ function Portfolio() {
                 href="https://shrouded-anchorage-40186.herokuapp.com/"
                 className="card-footer-item"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Deploy
               </a>
@@ -91,7 +91,7 @@ function Portfolio() {
           <div className="card">
             <div className="card-header-title">
               <h1 className="is-size-4">
-                <b>Monster Manager 👾</b>
+                <b>Monster Manager</b>
               </h1>
             </div>
             <div className="card-image">
@@ -106,7 +106,7 @@ function Portfolio() {
                 href="https://github.com/HaileyThomas/monster-manager"
                 className="card-footer-item"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 GitHub
               </a>
@@ -114,7 +114,7 @@ function Portfolio() {
                 href="https://drive.google.com/file/d/18kDH_H9czuoDG4F4f-HjWe8AAH94hxOg/view"
                 className="card-footer-item"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Demo
               </a>
@@ -128,7 +128,7 @@ function Portfolio() {
           <div className="card">
             <div className="card-header-title">
               <h1 className="is-size-4">
-                <b>Weather App 🌤️</b>
+                <b>Weather App</b>
               </h1>
             </div>
             <div className="card-image">
@@ -143,7 +143,7 @@ function Portfolio() {
                 href="https://github.com/HaileyThomas/weather-dashboard"
                 className="card-footer-item"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 GitHub
               </a>
@@ -151,7 +151,7 @@ function Portfolio() {
                 href="https://haileythomas.github.io/weather-dashboard/"
                 className="card-footer-item"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Deploy
               </a>
@@ -163,7 +163,7 @@ function Portfolio() {
           <div className="card">
             <div className="card-header-title">
               <h1 className="is-size-4">
-                <b>Coding Quiz ✔️</b>
+                <b>Coding Quiz</b>
               </h1>
             </div>
             <div className="card-image">
@@ -178,7 +178,7 @@ function Portfolio() {
                 href="https://github.com/HaileyThomas/coding-quiz"
                 className="card-footer-item"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 GitHub
               </a>
@@ -186,7 +186,7 @@ function Portfolio() {
                 href="https://haileythomas.github.io/coding-quiz/"
                 className="card-footer-item"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Deploy
               </a>
@@ -198,7 +198,7 @@ function Portfolio() {
           <div className="card">
             <div className="card-header-title">
               <h1 className="is-size-4">
-                <b>Plumbob Picker 💚</b>
+                <b>Plumbob Picker</b>
               </h1>
             </div>
             <div className="card-image">
@@ -213,7 +213,7 @@ function Portfolio() {
                 href="https://github.com/HaileyThomas/plumbobpicker"
                 className="card-footer-item"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 GitHub
               </a>
@@ -221,7 +221,7 @@ function Portfolio() {
                 href="https://haileythomas.github.io/plumbobpicker/"
                 className="card-footer-item"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Deploy
               </a>
@@ -233,7 +233,11 @@ function Portfolio() {
         <div className="column">
           <p className="has-text-white is-size-4 has-text-centered">
             Visit my{" "}
-            <a href="https://github.com/HaileyThomas" target="blank">
+            <a
+              href="https://github.com/HaileyThomas"
+              target="blank"
+              rel="noopener noreferrer"
+            >
               GitHub
             </a>{" "}
             to view more of my projects!
