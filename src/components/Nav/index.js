@@ -11,11 +11,11 @@ function Nav() {
     },
   };
   return (
-    <nav className="navbar has-background-info">
+    <nav className="navbar has-background-info p-1">
       <div className="navbar-brand">
         <StyleRoot>
           <h1
-            className="navbar-item title has-text-white"
+            className="navbar-item title is-size-2 has-text-white"
             style={styles.bounceInRight}
           >
             <b>Hailey Thomas Portfolio</b>

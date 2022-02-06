@@ -19,7 +19,10 @@ function Portfolio() {
       <div className="columns">
         <div className="column">
           <h1 className="has-text-white is-size-3 p-3">
-            <b>Portfolio</b>
+            <b>Portfolio </b>
+            <span role="img" aria-label="butterfly">
+              🦋
+            </span>
           </h1>
         </div>
       </div>
@@ -69,7 +72,7 @@ function Portfolio() {
               </h1>
             </div>
             <div className="card-image">
-            <ModalImage
+              <ModalImage
                 small={techblog}
                 large={techblogL}
                 alt="Tech Blog Screenshot"
@@ -106,7 +109,7 @@ function Portfolio() {
               </h1>
             </div>
             <div className="card-image">
-            <ModalImage
+              <ModalImage
                 small={monsters}
                 large={monstersL}
                 alt="Monster Manager Screenshot"
@@ -145,7 +148,7 @@ function Portfolio() {
               </h1>
             </div>
             <div className="card-image">
-            <ModalImage
+              <ModalImage
                 small={weather}
                 large={weatherL}
                 alt="Weather App Screenshot"
@@ -182,7 +185,7 @@ function Portfolio() {
               </h1>
             </div>
             <div className="card-image">
-            <ModalImage
+              <ModalImage
                 small={codingquiz}
                 large={codingquizL}
                 alt="Coding Quiz Screenshot"
@@ -219,7 +222,7 @@ function Portfolio() {
               </h1>
             </div>
             <div className="card-image">
-            <ModalImage
+              <ModalImage
                 small={plumbob}
                 large={plumbobL}
                 alt="Plumbob Pickers Screenshot"

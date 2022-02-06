@@ -13,6 +13,7 @@ import Resume from "./components/Resume";
 import Icon from "@mdi/react";
 import { mdiGithub } from "@mdi/js";
 import { mdiLinkedin } from "@mdi/js";
+import { mdiDiscord } from "@mdi/js";
 
 function App() {
   return (
@@ -41,32 +42,62 @@ function App() {
                   <br />
                   <br />
                   <br />
-                  <p className="has-text-white has-text-centered is-size-4">
-                    <a
-                      href="https://www.linkedin.com/in/haileyraethomas/"
-                      target="blank"
-                      rel="noopener noreferrer"
-                    >
-                      <span className="icon has-text-white is-large is-size-1">
-                        <Icon path={mdiLinkedin} />
-                      </span>
-                    </a>
-                    <a
-                      href="https://github.com/HaileyThomas"
-                      target="blank"
-                      rel="noopener noreferrer"
-                    >
-                      <span className="icon has-text-white is-large is-size-1">
-                        <Icon path={mdiGithub} />
-                      </span>
-                    </a>
-                  </p>
-                  <p
-                    className="is-size-3 has-text-white has-text-centered"
-                    rel="noopener noreferrer"
-                  >
-                    &copy; Hailey Thomas, 2022. Thank you so much for visiting
-                  </p>
+
+                  <ul className="columns has-text-centered is-size-4">
+                    <li className="column">
+                      <a
+                        href="https://www.linkedin.com/in/haileyraethomas/"
+                        target="blank"
+                        rel="noopener noreferrer"
+                        className="footer-link"
+                      >
+                        <span className="icon has-text-white is-large is-size-1">
+                          <Icon path={mdiLinkedin} />
+                        </span>
+                        <p>LinkedIn</p>
+                      </a>
+                    </li>
+                    <li className="column">
+                      <a
+                        href="https://github.com/HaileyThomas"
+                        target="blank"
+                        rel="noopener noreferrer"
+                        className="footer-link"
+                      >
+                        <span className="icon has-text-white is-large is-size-1">
+                          <Icon path={mdiGithub} />
+                        </span>
+                        <p>GitHub</p>
+                      </a>
+                    </li>
+                    <li className="column">
+                      <a
+                        href="https://discord.com/channels/haileyrt#3391"
+                        target="blank"
+                        rel="noopener noreferrer"
+                        className="footer-link"
+                      >
+                        <span className="icon has-text-white is-large is-size-1">
+                          <Icon path={mdiDiscord} />
+                        </span>
+                        <p>Discord</p>
+                      </a>
+                    </li>
+                  </ul>
+                  <div className="columns">
+                    <div className="column">
+                      <p
+                        className="is-size-3 has-text-white has-text-centered"
+                        rel="noopener noreferrer"
+                      >
+                        &copy; Hailey Thomas, 2022. Thank you so much for
+                        visiting{" "}
+                        <span role="img" aria-label="heart">
+                          ❤️
+                        </span>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

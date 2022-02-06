@@ -42,7 +42,10 @@ function Contact() {
     <section className="column is-four-fifths is-offset-1">
       <div>
         <h1 className="has-text-white is-size-3">
-          <b>Contact Me</b>
+          <b>Contact Me </b>
+          <span role="img" aria-label="butterfly">
+            🦋
+          </span>
         </h1>
         <p className="has-text-white has-text-centered">
           <a href="mailto:haileyraebeauty@gmail.com">

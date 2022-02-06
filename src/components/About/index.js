@@ -10,7 +10,10 @@ function About() {
       </div>
       <div className="column">
         <h1 id="about" className="has-text-white is-size-3">
-          <b>About Me</b>
+          <b>About Me </b>
+          <span role="img" aria-label="butterfly">
+            🦋
+          </span>
         </h1>
         <p className="has-text-white is-size-5 has-text-justified p-4">
           I am an aspiring junior full stack wed developer currently enrolled in
