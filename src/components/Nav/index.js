@@ -12,25 +12,25 @@ function Nav() {
       <div className="navbar-end">
         <Link
           to="/"
-          className="navbar-item button is-info is-inverted is-rounded m-3"
+          className="navbar-item is-tab button is-info is-inverted is-rounded m-3"
         >
           About Me
         </Link>
         <Link
           to="/portfolio"
-          className="navbar-item button is-info is-inverted is-rounded m-3"
+          className="navbar-item is-tab button is-info is-inverted is-rounded m-3"
         >
           Portfolio
         </Link>
         <Link
           to="/contact"
-          className="navbar-item button is-info is-inverted is-rounded m-3"
+          className="navbar-item is-tab button is-info is-inverted is-rounded m-3"
         >
           Contact
         </Link>
         <Link
           to="/resume"
-          className="navbar-item button is-info is-inverted is-rounded m-3"
+          className="navbar-item is-tab button is-info is-inverted is-rounded m-3"
         >
           Resume
         </Link>
