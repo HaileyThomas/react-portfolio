@@ -13,18 +13,16 @@ function About() {
           <b>About Me</b>
         </h1>
         <p className="has-text-white is-size-5 has-text-justified p-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc
-          faucibus a pellentesque sit amet porttitor eget dolor. Enim blandit
-          volutpat maecenas volutpat blandit aliquam etiam erat velit. Dolor sit
-          amet consectetur adipiscing elit pellentesque. Ut diam quam nulla
-          porttitor massa id neque aliquam vestibulum. Lobortis elementum nibh
-          tellus molestie nunc non blandit massa enim. Morbi tristique senectus
-          et netus et malesuada. Arcu dui vivamus arcu felis bibendum ut
-          tristique. Est pellentesque elit ullamcorper dignissim cras tincidunt.
-          Duis at consectetur lorem donec massa. Auctor elit sed vulputate mi
-          sit. Orci ac auctor augue mauris augue neque gravida. Ullamcorper
-          dignissim cras tincidunt lobortis feugiat.
+          I am an aspiring junior full stack wed developer currently enrolled in
+          ASU Coding Bootcamp. I currently own and manage a small cosmetics
+          brand and eCommerce store and the unique skill set I have will made a
+          unique and great fit to your team! I have a passion in seeing visions
+          become reality and love building friendships with my development teams
+          and work colleagues.
+          <br />
+          <br />
+          In my free time I love to read (mainly Brandon Sanderson and other
+          High Fantasy), play The Sims and go roller skating.
         </p>
         <img
           src={divider}
