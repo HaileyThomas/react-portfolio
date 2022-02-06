@@ -2,6 +2,7 @@ import React from "react";
 import divider from "../../assets/images/divider.png";
 import Icon from "@mdi/react";
 import { mdiFileDownloadOutline } from "@mdi/js";
+import resumePdf from "../../assets/Resume-Hailey-Thomas.pdf";
 
 function Resume() {
   return (
@@ -9,7 +10,7 @@ function Resume() {
       <div className="column is-four-fifths is-offset-1">
         <h1 className="has-text-white is-size-3">Resume</h1>
         <p className="has-text-white has-text-centered">
-          <a href="mailto:haileyraebeauty@gmail.com">
+          <a href={resumePdf} download>
             <span className="icon has-text-success is-large is-size-1">
               <Icon path={mdiFileDownloadOutline} />
             </span>
