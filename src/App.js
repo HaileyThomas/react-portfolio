@@ -42,7 +42,11 @@ function App() {
                   <br />
                   <br />
                   <p className="has-text-white has-text-centered is-size-4">
-                    <a href="mailto:haileyraebeauty@gmail.com">
+                    <a
+                      href="https://www.linkedin.com/in/haileyraethomas/"
+                      target="blank"
+                      rel="noopener noreferrer"
+                    >
                       <span className="icon has-text-white is-large is-size-1">
                         <Icon path={mdiLinkedin} />
                       </span>
