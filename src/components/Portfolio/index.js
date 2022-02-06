@@ -1,10 +1,17 @@
 import React from "react";
+import ModalImage from "react-modal-image";
 import bookclub from "../../assets/small/bookclub.png";
+import bookclubL from "../../assets/large/bookclub.png";
 import techblog from "../../assets/small/techblog.png";
+import techblogL from "../../assets/large/techblog.png";
 import monsters from "../../assets/small/monsters.png";
+import monstersL from "../../assets/large/monsters.png";
 import weather from "../../assets/small/weather.png";
+import weatherL from "../../assets/large/weather.png";
 import codingquiz from "../../assets/small/codingquiz.png";
+import codingquizL from "../../assets/large/codingquiz.png";
 import plumbob from "../../assets/small/plumbob.png";
+import plumbobL from "../../assets/large/plumbob.png";
 
 function Portfolio() {
   return (
@@ -25,10 +32,12 @@ function Portfolio() {
               </h1>
             </div>
             <div className="card-image">
-              <img
-                src={bookclub}
-                className="project-img"
+              <ModalImage
+                small={bookclub}
+                large={bookclubL}
                 alt="Book Club Screenshot"
+                hideDownload="true"
+                className="project-img"
               />
             </div>
             <footer className="card-footer">
@@ -60,10 +69,12 @@ function Portfolio() {
               </h1>
             </div>
             <div className="card-image">
-              <img
-                src={techblog}
-                className="project-img"
+            <ModalImage
+                small={techblog}
+                large={techblogL}
                 alt="Tech Blog Screenshot"
+                hideDownload="true"
+                className="project-img"
               />
             </div>
             <footer className="card-footer">
@@ -95,10 +106,12 @@ function Portfolio() {
               </h1>
             </div>
             <div className="card-image">
-              <img
-                src={monsters}
+            <ModalImage
+                small={monsters}
+                large={monstersL}
+                alt="Monster Manager Screenshot"
+                hideDownload="true"
                 className="project-img"
-                alt="Monster Management Screenshot"
               />
             </div>
             <footer className="card-footer">
@@ -132,10 +145,12 @@ function Portfolio() {
               </h1>
             </div>
             <div className="card-image">
-              <img
-                src={weather}
+            <ModalImage
+                small={weather}
+                large={weatherL}
+                alt="Weather App Screenshot"
+                hideDownload="true"
                 className="project-img"
-                alt="Weather Dashboard Screenshot"
               />
             </div>
             <footer className="card-footer">
@@ -167,10 +182,12 @@ function Portfolio() {
               </h1>
             </div>
             <div className="card-image">
-              <img
-                src={codingquiz}
-                className="project-img"
+            <ModalImage
+                small={codingquiz}
+                large={codingquizL}
                 alt="Coding Quiz Screenshot"
+                hideDownload="true"
+                className="project-img"
               />
             </div>
             <footer className="card-footer">
@@ -202,10 +219,12 @@ function Portfolio() {
               </h1>
             </div>
             <div className="card-image">
-              <img
-                src={plumbob}
+            <ModalImage
+                small={plumbob}
+                large={plumbobL}
+                alt="Plumbob Pickers Screenshot"
+                hideDownload="true"
                 className="project-img"
-                alt="Plumbob Picker Screenshot"
               />
             </div>
             <footer className="card-footer">
