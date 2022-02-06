@@ -1,13 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Radium, { StyleRoot } from "radium";
+import { bounceInRight } from "react-animations";
 
 function Nav() {
+  const styles = {
+    bounceInRight: {
+      animation: "x 1s",
+      animationName: Radium.keyframes(bounceInRight, "bounceInRight"),
+    },
+  };
   return (
     <nav className="navbar has-background-info">
       <div className="navbar-brand">
-        <h1 className="navbar-item title has-text-white">
-          <b>Hailey Thomas Portfolio</b>
-        </h1>
+        <StyleRoot>
+          <h1
+            className="navbar-item title has-text-white"
+            style={styles.bounceInRight}
+          >
+            <b>Hailey Thomas Portfolio</b>
+          </h1>
+        </StyleRoot>
       </div>
       <div className="navbar-end">
         <Link
