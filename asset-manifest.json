@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.7a7a08f7.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.3acd4b4c.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.3acd4b4c.chunk.js.map",
+    "runtime~main.js": "/react-portfolio/static/js/runtime~main.92dc2467.js",
+    "runtime~main.js.map": "/react-portfolio/static/js/runtime~main.92dc2467.js.map",
+    "static/js/2.0a91e477.chunk.js": "/react-portfolio/static/js/2.0a91e477.chunk.js",
+    "static/js/2.0a91e477.chunk.js.map": "/react-portfolio/static/js/2.0a91e477.chunk.js.map",
+    "static/js/3.6cd761d5.chunk.js": "/react-portfolio/static/js/3.6cd761d5.chunk.js",
+    "static/js/3.6cd761d5.chunk.js.map": "/react-portfolio/static/js/3.6cd761d5.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.b8e7a63bcbeef982cbbd0cd87f54c516.js": "/react-portfolio/precache-manifest.b8e7a63bcbeef982cbbd0cd87f54c516.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.7a7a08f7.chunk.css.map": "/react-portfolio/static/css/main.7a7a08f7.chunk.css.map",
+    "static/media/Resume-Hailey-Thomas.pdf": "/react-portfolio/static/media/Resume-Hailey-Thomas.99167eca.pdf",
+    "static/media/bookclub.png": "/react-portfolio/static/media/bookclub.645d3966.png",
+    "static/media/codingquiz.png": "/react-portfolio/static/media/codingquiz.86bb4554.png",
+    "static/media/divider.png": "/react-portfolio/static/media/divider.f8f68e2f.png",
+    "static/media/footer.png": "/react-portfolio/static/media/footer.54b87b83.png",
+    "static/media/header.png": "/react-portfolio/static/media/header.91e8bc93.png",
+    "static/media/headshot.jpg": "/react-portfolio/static/media/headshot.d8f92c1f.jpg",
+    "static/media/monsters.png": "/react-portfolio/static/media/monsters.b41a63b1.png",
+    "static/media/plumbob.png": "/react-portfolio/static/media/plumbob.b640dacd.png",
+    "static/media/techblog.png": "/react-portfolio/static/media/techblog.8c0ba558.png",
+    "static/media/weather.png": "/react-portfolio/static/media/weather.20fbfaa2.png"
+  }
+}
