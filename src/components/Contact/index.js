@@ -102,7 +102,9 @@ function Contact() {
           </div>
           {errorMessage && (
             <div>
-              <p className="has-text-red error-text">{errorMessage}</p>
+              <p className="contact-text has-text-white is-size-4">
+                {errorMessage}
+              </p>
             </div>
           )}
           <button
