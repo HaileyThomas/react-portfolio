@@ -27,6 +27,7 @@ function App() {
               <div className="columns green mr-1 ml-1 p-3">
                 <Routes>
                   <Route path="/" element={<About />} />
+                  <Route path="/about" element={<About />} />
                   <Route path="/portfolio" element={<Portfolio />} />
                   <Route path="/contact" element={<Contact />} />
                   <Route path="/resume" element={<Resume />} />
