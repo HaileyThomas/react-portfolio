@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "http://haileythomas.github.io/react-portfolio",
+  "homepage": "http://haileythomas.github.io/react-portfolio/",
   "private": true,
   "dependencies": {
     "@mdi/js": "^6.5.95",
