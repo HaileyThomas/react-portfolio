@@ -24,7 +24,7 @@ function Nav() {
       </div>
       <div className="navbar-end">
         <Link
-          to="/"
+          to="/about"
           className="navbar-item is-tab button is-info is-inverted is-rounded m-3"
         >
           About Me
