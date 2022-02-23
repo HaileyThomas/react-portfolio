@@ -12,6 +12,8 @@ import codingquiz from "../../assets/small/codingquiz.png";
 import codingquizL from "../../assets/large/codingquiz.png";
 import plumbob from "../../assets/small/plumbob.png";
 import plumbobL from "../../assets/large/plumbob.png";
+import toclarify from "../../assets/small/toclarify.png";
+import toclarifyL from "../../assets/large/toclarify.png";
 
 function Portfolio() {
   return (
