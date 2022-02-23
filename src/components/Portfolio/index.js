@@ -33,6 +33,42 @@ function Portfolio() {
           <div className="card">
             <div className="card-header-title">
               <h1 className="is-size-4">
+                <b>To Clarify</b>
+              </h1>
+            </div>
+            <div className="card-image">
+              <ModalImage
+                small={toclarify}
+                large={toclarifyL}
+                alt="To Clarify Screenshot"
+                hideDownload="true"
+                className="project-img"
+              />
+            </div>
+            <footer className="card-footer">
+              <a
+                href="https://github.com/Teeemster/ToClarify"
+                className="card-footer-item"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://toclarify.herokuapp.com/"
+                className="card-footer-item"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Deploy
+              </a>
+            </footer>
+          </div>
+        </div>
+        <div className="column is-4">
+          <div className="card">
+            <div className="card-header-title">
+              <h1 className="is-size-4">
                 <b>Book Club</b>
               </h1>
             </div>
@@ -102,7 +138,9 @@ function Portfolio() {
             </footer>
           </div>
         </div>
+      </div>
 
+      <div className="columns">
         <div className="column is-4">
           <div className="card">
             <div className="card-header-title">
@@ -139,9 +177,6 @@ function Portfolio() {
             </footer>
           </div>
         </div>
-      </div>
-
-      <div className="columns">
         <div className="column is-4">
           <div className="card">
             <div className="card-header-title">
@@ -206,43 +241,6 @@ function Portfolio() {
               </a>
               <a
                 href="https://haileythomas.github.io/coding-quiz/"
-                className="card-footer-item"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Deploy
-              </a>
-            </footer>
-          </div>
-        </div>
-
-        <div className="column is-4">
-          <div className="card">
-            <div className="card-header-title">
-              <h1 className="is-size-4">
-                <b>Plumbob Picker</b>
-              </h1>
-            </div>
-            <div className="card-image">
-              <ModalImage
-                small={plumbob}
-                large={plumbobL}
-                alt="Plumbob Pickers Screenshot"
-                hideDownload="true"
-                className="project-img"
-              />
-            </div>
-            <footer className="card-footer">
-              <a
-                href="https://github.com/HaileyThomas/plumbobpicker"
-                className="card-footer-item"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-              <a
-                href="https://haileythomas.github.io/plumbobpicker/"
                 className="card-footer-item"
                 target="_blank"
                 rel="noopener noreferrer"
