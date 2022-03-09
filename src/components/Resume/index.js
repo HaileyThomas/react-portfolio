@@ -2,7 +2,7 @@ import React from "react";
 import divider from "../../assets/images/divider.png";
 import Icon from "@mdi/react";
 import { mdiFileDownloadOutline } from "@mdi/js";
-import resumePdf from "../../assets/Resume-Hailey-Thomas.pdf";
+import resumePdf from "../../assets/HaileyThomasResume.pdf";
 
 function Resume() {
   return (
