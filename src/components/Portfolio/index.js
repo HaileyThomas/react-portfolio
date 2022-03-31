@@ -55,7 +55,7 @@ function Portfolio() {
                 GitHub
               </a>
               <a
-                href="https://toclarify.herokuapp.com/"
+                href="https://toclarifyapp.herokuapp.com/"
                 className="card-footer-item"
                 target="_blank"
                 rel="noopener noreferrer"
